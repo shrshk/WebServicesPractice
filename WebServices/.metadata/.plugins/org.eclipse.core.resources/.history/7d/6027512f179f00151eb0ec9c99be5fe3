@@ -1,0 +1,11 @@
+package com.shirishProgramming;
+
+public class TestThread {
+	public static void main(String[] args) {
+		RunnableDemo r1 = new RunnableDemo("threadOne");
+		r1.start();
+		
+	}
+
+	
+}

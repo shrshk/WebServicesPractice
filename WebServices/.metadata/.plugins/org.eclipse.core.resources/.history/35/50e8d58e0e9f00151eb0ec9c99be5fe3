@@ -1,0 +1,11 @@
+package com.shirishProgramming;
+
+import javax.xml.ws.Endpoint;
+//Endpoint publisher
+public class HelloWorldPublisher{
+
+	public static void main(String[] args) {
+		Endpoint.publish("localhost...", new HelloWorldImpl());
+	}
+
+}
